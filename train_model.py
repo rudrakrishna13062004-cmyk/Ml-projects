@@ -14,8 +14,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from sklearn.model_selection import train_test_split
 
 DATA_PATH = "reviews.csv"
-MODEL_PATH = "model/sentiment_model.pkl"
-VECTORIZER_PATH = "model/vectorizer.pkl"
+MODEL_PATH = "sentiment_model.pkl"
+VECTORIZER_PATH = "vectorizer.pkl"
 
 
 def main():
