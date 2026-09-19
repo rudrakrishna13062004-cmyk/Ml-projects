@@ -19,9 +19,9 @@ app = FastAPI(
 
 # Load model + vectorizer once at startup
 try:
-    with open("/sentiment_model.pkl", "rb") as f:
+    with open("sentiment_model.pkl", "rb") as f:
         model = pickle.load(f)
-    with open("/vectorizer.pkl", "rb") as f:
+    with open("vectorizer.pkl", "rb") as f:
         vectorizer = pickle.load(f)
 except FileNotFoundError:
     model, vectorizer = None, None
