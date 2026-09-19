@@ -13,7 +13,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 
-DATA_PATH = "data/reviews.csv"
+DATA_PATH = "reviews.csv"
 MODEL_PATH = "model/sentiment_model.pkl"
 VECTORIZER_PATH = "model/vectorizer.pkl"
 
